@@ -1,7 +1,7 @@
-package com.whs.trading.gemini;
+package com.whs.trading.gemini.dto;
 
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 
 public class IndicatorResult {
     private String indicatorName;

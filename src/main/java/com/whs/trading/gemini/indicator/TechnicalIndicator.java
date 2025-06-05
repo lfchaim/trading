@@ -1,7 +1,10 @@
-package com.whs.trading.gemini;
+package com.whs.trading.gemini.indicator;
 
 import java.util.List;
 import java.util.Map;
+
+import com.whs.trading.gemini.dto.CandlestickData;
+import com.whs.trading.gemini.dto.IndicatorResult;
 
 public interface TechnicalIndicator {
     String getName(); // Nome do indicador (ex: "RSI", "SMA")

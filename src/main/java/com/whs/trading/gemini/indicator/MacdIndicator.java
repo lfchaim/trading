@@ -1,4 +1,4 @@
-package com.whs.trading.gemini;
+package com.whs.trading.gemini.indicator;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -9,6 +9,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
+
+import com.whs.trading.gemini.dto.CandlestickData;
+import com.whs.trading.gemini.dto.IndicatorResult;
+import com.whs.trading.gemini.dto.Signal;
 
 @Service
 public class MacdIndicator implements TechnicalIndicator {

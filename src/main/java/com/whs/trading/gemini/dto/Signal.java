@@ -1,4 +1,4 @@
-package com.whs.trading.gemini;
+package com.whs.trading.gemini.dto;
 
 public enum Signal {
     BUY,

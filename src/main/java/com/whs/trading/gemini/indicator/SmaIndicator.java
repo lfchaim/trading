@@ -1,11 +1,15 @@
-package com.whs.trading.gemini;
-
-import org.springframework.stereotype.Service;
+package com.whs.trading.gemini.indicator;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
 import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import com.whs.trading.gemini.dto.CandlestickData;
+import com.whs.trading.gemini.dto.IndicatorResult;
+import com.whs.trading.gemini.dto.Signal;
 
 @Service
 public class SmaIndicator implements TechnicalIndicator {
